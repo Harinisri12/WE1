@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.collapsible {
+    border: 1px solid #007BFF;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.collapsible-header {
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+    background: #f1f1f1;
+}
